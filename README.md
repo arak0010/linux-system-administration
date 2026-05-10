@@ -1,22 +1,22 @@
-# Linux User and Group Management
+# Linux System Administration
 
-## Objective
-Create and manage users and groups on a Linux system to control access
-and permissions.
+This repository contains hands-on Linux system administration labs performed
+on a live Ubuntu server hosted on DigitalOcean. The labs focus on real-world
+server management, security, and access control tasks relevant to IT and
+Networking roles.
 
 ## Environment
-- Ubuntu 24.04 LTS (DigitalOcean Droplet)
-- SSH key-based access from Windows PowerShell / Termius
+- Ubuntu 24.04 LTS
+- DigitalOcean cloud server
+- SSH key-based authentication
+- Windows PowerShell & Termius
 
-## Tasks Performed
-- Created a new Linux user
-- Created a custom group
-- Added the user to the group
-- Verified group membership
+## Labs
+- User and Group Management
+- SSH Hardening (in progress)
 
-## Commands Used
-```bash
-adduser testuser
-groupadd itgroup
-usermod -aG itgroup testuser
-id testuser
+## Skills Demonstrated
+- Linux user and group administration
+- Secure SSH access management
+- Cloud server administration
+- Command-line troubleshooting
